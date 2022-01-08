@@ -1,3 +1,6 @@
-# Strapi application
+# CHRIS-RIME-BACKEND
 
-A quick description of your strapi application
+---
+V 0.0.1
+
+
