@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "video",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "lien": {
+      "type": "string",
+      "unique": true
+    },
+    "pedaguo": {
+      "type": "boolean"
+    },
+    "jeu": {
+      "type": "boolean"
+    },
+    "guest": {
+      "type": "boolean"
+    },
+    "albums": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::album.album",
+      "mappedBy": "video"
+    }
+  }
+}

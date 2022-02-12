@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_liens_tests",
+  "info": {
+    "displayName": "test",
+    "icon": "check-circle"
+  },
+  "options": {},
+  "attributes": {
+    "lien": {
+      "type": "string"
+    }
+  }
+}
