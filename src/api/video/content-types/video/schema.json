@@ -34,6 +34,18 @@
       "relation": "manyToMany",
       "target": "api::album.album",
       "mappedBy": "video"
+    },
+    "games": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::game.game",
+      "mappedBy": "videos"
+    },
+    "films": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::film.film",
+      "inversedBy": "videos"
     }
   }
 }
