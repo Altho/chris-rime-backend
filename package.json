@@ -12,7 +12,9 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.0.5",
     "@strapi/plugin-users-permissions": "4.0.5",
+    "@strapi/provider-upload-cloudinary": "^4.1.8",
     "@strapi/strapi": "4.0.5",
+    "cloudinary": "^1.29.0",
     "isotope-layout": "^3.0.6",
     "nanoid": "^3.2.0",
     "pg": "^8.7.3",
