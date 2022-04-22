@@ -9,7 +9,7 @@ module.exports = ({ env }) => ({
         api_secret: process.env.CLOUDINARY_SECRET,
       },
       actionOptions: {
-        upload: {},
+        upload: {format : 'webp'},
         delete: {},
       },
     },
