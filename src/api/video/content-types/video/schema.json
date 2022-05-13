@@ -51,7 +51,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::movie.movie",
-      "inversedBy": "videos"
+      "mappedBy": "videos"
     }
   }
 }
