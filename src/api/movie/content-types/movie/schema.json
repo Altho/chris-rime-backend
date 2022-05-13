@@ -92,6 +92,14 @@
         }
       },
       "type": "string"
+    },
+    "preview": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "text"
     }
   }
 }
