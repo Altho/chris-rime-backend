@@ -48,27 +48,36 @@
       },
       "type": "string"
     },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "auteur": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    },
     "content": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "text"
-    },
-    "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
+      "type": "richtext"
     }
   }
 }
