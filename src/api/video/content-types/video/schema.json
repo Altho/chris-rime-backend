@@ -52,6 +52,10 @@
       "relation": "manyToMany",
       "target": "api::movie.movie",
       "mappedBy": "videos"
+    },
+    "prioritaire": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

@@ -51,7 +51,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::video.video",
-      "inversedBy": "films"
+      "mappedBy": "films"
     },
     "image": {
       "allowedTypes": [
