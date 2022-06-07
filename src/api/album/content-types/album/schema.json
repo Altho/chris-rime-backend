@@ -157,6 +157,18 @@
         }
       },
       "type": "boolean"
+    },
+    "audio": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     }
   }
 }
